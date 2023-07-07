@@ -46,7 +46,7 @@ def main():
 
     # sidebar with user input
     with st.sidebar:
-        user_input = st.text_input("Your message: ", key="user_input")
+        user_input = st.text_area("Your message: ", key="user_input")  # replaced text_input with text_area
 
         # handle user input
         if user_input:
